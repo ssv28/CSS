@@ -1,0 +1,9 @@
+body{
+    background-color: yellowgreen;
+}
+
+h1,
+p{
+    color :palevioletred;
+    font-size: 80px ;
+}

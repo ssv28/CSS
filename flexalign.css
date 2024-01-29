@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height: 300px;
+    width: calc(25% - 30px);
+    background-color: rgb(13, 86, 142);
+    /* margin: 15px; */
+
+}
+
+.flex {
+    background-color: rgb(15, 15, 49);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+
+.just-center {
+    justify-content: center;
+}
+
+
+/* .ssv {
+    /* align-self: center; 
+} */

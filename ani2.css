@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.main{  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.circle1{
+    height: 500px;
+    width:500px;
+    border-radius: 50%;
+    border: 2px solid #fff; 
+    animation: demo 10s linear infinite;
+}
+
+.circle2{
+    width:160px;
+    height: 160px;
+    border-radius: 50%;   
+    background-color: yellow;
+    animation: demo 7s linear infinite;
+    
+}
+
+.circle3{
+    width:50px;
+    height: 50px;
+    border-radius: 50%; 
+    background-color: red;
+    animation: demo 3s linear infinite;
+    
+}
+
+@keyframes demo {
+    0% {
+        transform: rotate(0deg);   
+        
+    }
+
+    100% {
+        transform: rotate(360deg);
+       
+    }
+
+}

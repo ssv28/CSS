@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 500px;
+    background-color: azure;
+    position: relative;
+}
+
+.base {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-duration: 3s;
+    animation-name: sss;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+
+@keyframes sss {
+    from {
+        background-color: aqua;
+        transform: scale(2);
+
+    }
+
+    to {
+        background-color: black;
+        border-radius: 100%;
+
+    }
+
+    0% {
+        top: 0;
+        left: 0px;
+    }
+
+    25% {
+        top: 400px;
+        left: 50%;
+    }
+
+    50% {
+        top: 0;
+        left: 60%;
+    }
+
+    75% {
+        top: 400px;
+        left: 70%;
+    }
+
+    100% {
+        top: 0;
+        left: 80%;
+        /* bottom: 50%; */
+    }
+}

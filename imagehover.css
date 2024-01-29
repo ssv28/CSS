@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* zoom in */
+.image {
+
+    width: 300px;
+    height: 200px;
+    /* transition: 2s; */
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.image img {
+    width: 100%;
+    display: block;
+
+}
+
+.image:hover img {
+    transform: scale(1.5);
+}
+
+/* zoom in 2 */
+.imagey {
+
+    width: 300px;
+    height: 200px;
+    /* transition: 2s; */
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.imagey img {
+    width: 100%;
+    display: block;
+
+}
+
+.imagey:hover img {
+    transform: scale(3);
+}
+
+/* zoon out 1*/
+.imagex {
+
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.imagex img {
+    width: 100%;
+    display: block;
+
+    transform: translate(10px) scale(1.5);
+}
+
+.imagex:hover img {
+    transform: translate(0) scale(1);
+}
+
+/* zoom out 2 */
+
+.imagep {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.imagep img {
+    width: 100%;
+    display: block;
+
+    transform: translate(10px) scale(3);
+}
+
+.imagep:hover img {
+    transform: translate(0) scale(1);
+}
+
+/* slide */
+
+.imagec {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.imagec img {
+    width: 100%;
+    display: block;
+
+    transform: scale(1.5);
+    margin-left: 35px;
+}
+
+.imagec:hover img {
+    margin-left: 0;
+
+}
+
+/* rotate */
+
+.images {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.images img {
+    width: 100%;
+    display: block;
+    transform: rotate(10deg) scale(1.4);
+}
+
+.images:hover img {
+    transform: rotate(0) scale(1);
+}
+
+
+/* blur */
+
+.imageb {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.imageb img {
+    width: 100%;
+    display: block;
+
+    filter: blur(2px);
+}
+
+.imageb:hover img {
+    filter: blur(0px);
+}
+
+/* blur scale */
+
+.imagel {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.imagel img {
+    width: 100%;
+    display: block;
+    filter: grayscale(1)
+}
+
+.imagel:hover img {
+    filter: grayscale(0);
+}
+
+/* sepia */
+
+.imagee {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.imagee img {
+    width: 100%;
+    display: block;
+    filter: sepia(1);
+}
+
+.imagee:hover img {
+    filter: sepia(0);
+
+}
+
+
+/* gray scale + blur */
+.imageg {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.imageg img {
+    width: 100%;
+    display: block;
+    filter: grayscale(0) blur(0);
+
+}
+
+.imageg:hover img {
+    filter: grayscale(1) blur(5px);
+
+}
+
+/* opicity 1 */
+
+
+.imageo {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.imageo img {
+    width: 100%;
+    display: block;
+    filter: opacity(1);
+
+}
+
+.imageo:hover img {
+    filter: opacity(0.5);
+}
+
+
+/* opacity 2 */
+
+.imageo2 {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: #1abc9c;
+
+}
+
+.imageo2 img {
+    width: 100%;
+    display: block;
+    filter: opacity(1);
+
+}
+
+.imageo2:hover img {
+    filter: opacity(0.5);
+
+}

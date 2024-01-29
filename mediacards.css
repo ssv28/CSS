@@ -1,0 +1,13 @@
+@media (max-width:992px) {
+    .cards {
+        width: calc(100%-30px);
+    }
+}
+
+@media (max-width:576px) {
+    .cards {
+        width: calc(50% - 30px);
+    }
+}
+
+
